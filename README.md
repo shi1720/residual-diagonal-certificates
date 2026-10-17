@@ -6,6 +6,7 @@ The paper asks what a known factor and residual diagonal can certify **universal
 
 - [Paper PDF](paper/Diagonal_Certificates_Shivam_Gupta.pdf)
 - [LaTeX source](paper/main.tex)
+- [ETNA submission version](journal-etna/Diagonal_Certificates_ETNA_Submission.pdf): journal template, line numbers, and subject classifications; submitted 17 October 2026, awaiting editorial assessment.
 - [Numerical core](src/diagcert.py)
 - [Literature and novelty boundary](LITERATURE.md)
 - [Retained results](results/)
