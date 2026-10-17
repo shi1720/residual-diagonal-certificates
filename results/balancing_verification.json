@@ -1,0 +1,6 @@
+{
+  "cases": 150,
+  "partition_and_tightness_cases": 2,
+  "max_lp_residual": 5.99210753361906e-16,
+  "status": "passed"
+}

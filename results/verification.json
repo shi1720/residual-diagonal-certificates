@@ -1,0 +1,20 @@
+{
+  "random_completion_checks": 396,
+  "structured_and_other_checks": 31,
+  "exhaustive_instances": 132,
+  "sign_dimensions": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "max_relative_witness_error": 5.103433039076574e-15,
+  "status": "passed"
+}

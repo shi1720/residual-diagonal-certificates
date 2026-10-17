@@ -1,0 +1,41 @@
+{
+  "python": "3.9.6",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "processor": "arm",
+  "threads": 1,
+  "total_seconds": 53.544391624999996,
+  "main_cases": 360,
+  "sdp_cases": 54,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "armv8",
+      "library_file": "libopenblas64_.0.dylib"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "version": "0.3.27",
+      "threading_layer": "pthreads",
+      "architecture": "neoversen1",
+      "library_file": "libopenblas.0.dylib"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "version": null,
+      "library_file": "libomp.dylib"
+    }
+  ]
+}
