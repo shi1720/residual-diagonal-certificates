@@ -6,7 +6,7 @@ The paper asks what a known factor and residual diagonal can certify **universal
 
 - [Paper PDF](paper/Diagonal_Certificates_Shivam_Gupta.pdf)
 - [LaTeX source](paper/main.tex)
-- [ETNA submission version](journal-etna/Diagonal_Certificates_ETNA_Submission.pdf): journal template, line numbers, and subject classifications; submitted 17 October 2026, awaiting editorial assessment.
+- [ETNA submission version](journal-etna/Diagonal_Certificates_ETNA_Submission.pdf): journal template, line numbers, and subject classifications; archived submission version dated 17 October 2026. ETNA consideration closed on 18 October; a revised journal version was submitted to Numerical Algorithms on 19 October 2026. These dates do not indicate acceptance.
 - [Numerical core](src/diagcert.py)
 - [Literature and novelty boundary](LITERATURE.md)
 - [Retained results](results/)
@@ -72,3 +72,7 @@ RPCholesky follows the residual-diagonal sampling rule in Chen, Epperly, Tropp, 
 Digits, Breast Cancer Wisconsin Diagnostic, and Diabetes are distributed with scikit-learn. See its dataset documentation and the paper's references for original provenance. Raw datasets are not copied into this repository.
 
 Code is licensed under MIT. The manuscript and original figures are licensed under CC BY 4.0. Retained numeric result files are licensed under CC BY 4.0. Third-party datasets and cited works retain their own terms.
+
+## Classroom example
+
+Run `python examples/classroom_diagonal_certificate.py` with NumPy installed. This data-free six-dimensional teaching example is separate from the retained manuscript benchmarks. Two PSD residuals preserve the same observed Nyström column and residual diagonal. Exact rational arithmetic enumerates the 16 distinct rank-one completions and obtains the worst-case value `6109/625`; NumPy separately checks the illustrative spectra. The script distinguishes the universal-certificate barrier from the condition number of the realized diagonal residual and from PCG iteration counts.
